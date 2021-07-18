@@ -1,2 +1,2 @@
-# python_challenge
+# Python Challenge
 New Homework assignment
