@@ -69,5 +69,3 @@ with open(exportpath, "w") as textfile:
         textfile.write(f"Average Change: ${round((average_month),2)}")
         textfile.write(f"Greatest Increase in Revenues: ${max_change}")
         textfile.write(f"Greasest Decrease in Revenues:  ${min_change}")
-
-
