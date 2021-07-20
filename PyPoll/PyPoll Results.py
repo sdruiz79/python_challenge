@@ -7,7 +7,7 @@ with open("Resources/election_data.csv" , "r") as fh:
 csvpath = ("Resources/election_data.csv")
 
 with open(csvpath, newline="") as csvfile:
-    csv_reader =csv.reader(csvfile, delimiter=",")
+    csv_reader =csv.reader(csvfile, delimeter=",")
     csv_headers = next(csv_reader, None)
     #print (f"CSV Header: {csv_headers}"
 
